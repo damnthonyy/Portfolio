@@ -108,7 +108,7 @@
 
 
     .CTA-content {
-        display: none;
+        display: block;
     }
 
     .hamburger-content {

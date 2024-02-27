@@ -38,13 +38,15 @@
                 <a href="#Section-Services">Services</a>
                 <a href="#Section-Skills">Skills</a>
                 <a href="#section-Projects">Projects</a>
+                <a href="Img/CV.pdf" download="CV">
+                    <div class="CTA-content">
+                        <button class="CTA" type="button"> download CV</button>
+                    </div>
+                </a>
             </div>
+
         </div>
-        <a href="Contact.html">
-            <div class="CTA-content">
-                <button class="CTA" type="button"> Contacts</button>
-            </div>
-        </a>
+
     </div>
 
     <div id="Section-Home">
@@ -67,7 +69,7 @@
             <div class="About-Text-content">
                 <h6> About</h6>
                 <h2>ANTOINE <span class="Name">MAHASSADI.</span></h2>
-                <h3>I am Antoine Mahassadi, 21 years old, Full stack developer and UX/UI designer. Passionate about
+                <h3>I am Antoine Mahassadi, 22 years old, Full stack developer and UX/UI designer. Passionate about
                     creative development, I am in a Bachelor of Web Development with the aim of perfecting my skills and
                     becoming the best version of me.
                 </h3>
@@ -83,15 +85,9 @@
 
         <div class="About-Image">
             <div class="Img-content">
-
-                <div class="Img-Back" style="width: 341px; height: 398px; border-radius: 16px;
-                    background: var(--Purple, #7E74F1); position: absolute;
-                    transform: rotate(-9.545deg); z-index: 0;">
-                </div>
-
                 <div class="Img-front">
                     <div class="Pic-content">
-                        <img class="Pic-of-me" alt="#" src="Img/sssss 1.png" />
+                        <img class="Pic-of-me" alt="#" src="Img/me.jpg" />
                     </div>
                 </div>
 
@@ -209,9 +205,9 @@
                     <div class="Skills-Content">
                         <div class="Skills-content-explain">
                             <div class="langague">
-                                <img src="Img/Threejs-logo.png" style=" width: 50px; height: 50px;" alt="#">
+                                <img src="Img/NodeJS.jpg" style="height: 50px" alt="#">
                             </div>
-                            <h2> Three.Js </h2>
+                            <h2> Node.Js </h2>
                         </div>
                     </div>
                 </div>
@@ -232,17 +228,20 @@
                 width: 361px;
                 height: 294px;
                 flex-direction: column;
-                align-items: flex-start; background: #D7D7D7;">
+                align-items: flex-start; background: #D7D7D7;overflow: hidden">
+                    <img src="Img/netflix.png" alt="#" style="width: 100%; height: 100%; object-fit: cover " />
                 </div>
                 <div class="details">
                     <h4>Netflix App</h4>
                     <div class="Tag">
                         <h6>React</h6>
                     </div>
-                    <div class="link">
-                        <a href=""> <img src="Img/Link.svg" alt="link" style="width: 24px;
-                        height: 24px;" /> </a>
-                    </div>
+                    <a href="https://github.com/damnthonyy">
+                        <div class="link">
+                            <img src="Img/Link.svg" alt="link" style="width: 24px;
+                        height: 24px;" />
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="Portfolio-item" style="width: 361px; height: auto;">
@@ -250,17 +249,20 @@
                 width: 361px;
                 height: 294px;
                 flex-direction: column;
-                align-items: flex-start; background: #D7D7D7;">
+                align-items: flex-start; background: #D7D7D7;overflow: hidden;">
+                    <img src="Img/MatchMyGame.png" alt="#" style="width: 100%; height: 100%;object-fit:fill;" />
                 </div>
                 <div class="details">
-                    <h4>Netflix App</h4>
+                    <h4>MatchMyGame</h4>
                     <div class="Tag">
-                        <h6>React</h6>
+                        <h6>Vue.js/Laravel</h6>
                     </div>
-                    <div class="link">
-                        <img src="Img/Link.svg" alt="link" style="width: 24px;
+                    <a href="https://github.com/damnthonyy">
+                        <div class="link">
+                            <img src="Img/Link.svg" alt="link" style="width: 24px;
                         height: 24px;" />
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="Portfolio-item" style="width: 361px; height: auto;">
@@ -268,17 +270,20 @@
                 width: 361px;
                 height: 294px;
                 flex-direction: column;
-                align-items: flex-start; background: #D7D7D7;">
+                align-items: flex-start; background: #D7D7D7;overflow: hidden;">
+                    <img src="Img/Consisto.png" alt="#" style="width: 100%; height: 100%; object-fit: cover;" />
                 </div>
                 <div class="details">
-                    <h4>Netflix App</h4>
+                    <h4>Consisto</h4>
                     <div class="Tag">
-                        <h6>React</h6>
+                        <h6>Php</h6>
                     </div>
-                    <div class="link">
-                        <img src="Img/Link.svg" alt="link" style="width: 24px;
+                    <a href="https://github.com/damnthonyy">
+                        <div class="link">
+                            <img src="Img/Link.svg" alt="link" style="width: 24px;
                         height: 24px;" />
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -345,6 +350,8 @@
 
 
     <script src='script.js'></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

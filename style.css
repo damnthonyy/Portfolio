@@ -27,6 +27,7 @@
 
 .NavBar-Content {
     display: flex;
+    gap: 120px;
     padding: 10px 0px;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +76,7 @@
 
 .CTA {
     display: flex;
-    width: 116px;
+    width: 100%;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -159,7 +160,7 @@
 .Img-front {
     display: flex;
     width: 336px;
-    height: 467px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -199,6 +200,7 @@
 
 .Wrap-Titre {
     display: flex;
+    flex-direction: column;
     width: 248px;
     align-items: flex-start;
     align-content: flex-start;
